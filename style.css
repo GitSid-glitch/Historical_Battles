@@ -1,23 +1,28 @@
 .container{
-    padding:5px;
-    height:100vh;
+    padding:30px;
+    height:100px;
+    width:100%;
     text-align:center;
-    margin-top:30px;
+    display:flex;
+    padding-left:0px;
+    padding-top:0px;
+    background-color:lightblue;
 
+    
 }
 
 
 body{
-    margin-top:10px;
+    
     padding:0px;
-    background-image:linear-gradient(lavender,lightblue);
+    margin:0px;
     background-repeat:no-repeat;
 
     
 }
 
 body{
-    margin:0px;
+    
     padding:0px;
 }
 
@@ -26,7 +31,11 @@ h{
     font-size:50px;
     text-shadow: 5px 2px 15px rgba(19, 81, 144, 0.904);
     font-family:monospace;
+
+    
+
    
+    
 }
 
 .highlight{
@@ -58,15 +67,10 @@ p{
     margin-right:10px;
     
 }
-.hero-section-image{
-    width:500px;
-    height:300px;
-    margin-top:120px;
-}
 
 .hero-image{
     box-shadow:
-    inset 0 -3em 3em blue, 0 0 0 2px white,0.3em 0.3em 1em rgb(9, 71, 194);
+    inset 0 -3em 4em blue, 0 0 0 2px white,0.5em 0.5em 1em rgb(9, 71, 194);
     padding:0px;
     margin-right:10px;
 
@@ -74,18 +78,88 @@ p{
 
 
 .details{
-    width:900px;
-    padding:40px;
-    margin-top:100px;
+    border:1px solid;
+    width:100%;
+    padding:10px;
+    margin-top:0px;
     margin-left:1px;
-    margin-right:10px;
+    
+    margin-bottom:0px;
+    text-align:center;
+    background-image:linear-gradient(pink,lightblue)
+}
+
+.button{
+
+    margin-bottom:0px;
+    display:flex;
+    justify-content:space-between;
+    background-color:rgb(242, 220, 184);
+    padding:0px;
+ 
 }
 
 .button1{
-    display:flex;
-    padding-top:50px;
-    width:50px;
+    margin:30px;
+    width:90px;
     height:50px;
-    justify-content: space;
+    border-radius:10px;
 }
+
+.button2{
+    margin:30px;
+    width:90px;
+    height:50px;
+    border-radius:10px;
+}
+
+
+.hero-image1{
+    height:400px;
+    box-shadow:
+    inset 0 -3em 4em blue, 0 0 0 2px white,0.5em 0.5em 1em rgb(9, 71, 194);
+    padding:0px;
+    margin-right:10px;
+    border-radius:10px;
+    
+}
+
+img {
+    -webkit-mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,#000 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 800%;
+    mask-size: 800%;
+    -webkit-mask-position: 0;
+    mask-position: 0;
+  }
+  
+img:hover {
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 120%;
+    mask-position: 120%;
+    opacity: 2;
+  }
+.image{
+    width:150px;
+    height:150px;
+
+   
+    
+   
+}
+   
+
+
+#heading{
+    padding-left:350px;
+    padding-top:40px;
+}
+
+
+
+
+
+
+
+
 
