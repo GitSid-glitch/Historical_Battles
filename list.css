@@ -3,7 +3,7 @@
     height: 245px;
 }
 body{
-    background-image: url("war3.webp");
+    background-image: url("back2.jpg");
 }
 .name{
     height: 40px;
@@ -18,7 +18,7 @@ body{
     margin-top: 20px;
 }
 .name:hover{
-    border: 2px solid;
+    border: 3px solid;
     cursor: pointer;
 }
 .container{
@@ -50,9 +50,34 @@ body{
 }
 .png-img{
     transition: 1s;
-    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius:10px;
 }
 .png-img:hover{
     transform: scale(1.1);
 }
-
+.retu{
+    background-color: transparent;
+    height: 30px;
+    color: rgb(207, 220, 20);
+    border: 2px solid orange;
+}
+.retu:hover{
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+.inlogo{
+    -webkit-mask-image: linear-gradient(45deg,black,rgba(0,0,0,.2) 50%,#000 75%);
+    mask-image: linear-gradient(45deg,black 25%,rgba(0,0,0,.2) 50%,#000 75%);
+    -webkit-mask-size: 600%;
+    mask-size: 600%;
+    -webkit-mask-position: 4;
+    mask-position: 4;
+}
+.inlogo:hover{
+    transition: mask-position 2s ease,-webkit-mask-position 2s ease;
+    -webkit-mask-position: 100%;
+    mask-position: 100%;
+    opacity: 2;
+}
