@@ -1,0 +1,58 @@
+.png-img{
+    width: 20vw;
+    height: 245px;
+}
+body{
+    background-image: url("war3.webp");
+}
+.name{
+    height: 40px;
+    width: 150px;
+    border: none;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: transparent;
+    font-weight: bold;
+    color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+.name:hover{
+    border: 2px solid;
+    cursor: pointer;
+}
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.pngs{
+    margin: 10px;
+}
+#png-4{
+    margin-left:300px ;
+    padding-right: 90px;
+}
+#png-4,#png-5{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+   
+}
+#png-5{
+    margin-right: 320px;
+}
+.inlogo{
+    height: 100px;
+    width: 100px;   
+}
+.png-img{
+    transition: 1s;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 30px 90px;
+}
+.png-img:hover{
+    transform: scale(1.1);
+}
+
