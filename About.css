@@ -1,0 +1,132 @@
+body{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+   
+}
+.header p{
+    font-size:20px;
+}
+.x{
+    display:flex;
+    width:100%;
+    height:100%;
+    margin-top:10px;    
+
+}
+.desc1{
+    padding-left:90px;
+    padding-top:30px;
+    width:350px;
+    height:380px;
+    border-radius:15px;
+    box-shadow:0px 54px 55px rgba(26, 54, 81, 0.5), rgba(60, 31, 77, 0.5) 0px -12px 30px, rgba(35, 215, 206, 0.50) 0px 4px 6px, rgba(232, 44, 44, 0.40) 0px 12px 13px, rgba(200, 16, 16, 0.2) 0px -3px 5px;
+}
+.nitin{
+    width:260px;
+    height:260px;
+    border-radius:50%;
+    transition: 1s;
+    
+
+}
+
+.nitin:hover{
+    transform: scale(1.1);
+}
+
+
+
+.desc2{
+    padding-left:90px;
+    padding-top:30px;
+    width:350px;
+    height:380px;
+    border-radius:15px;
+    box-shadow:0px 54px 55px rgba(26, 54, 81, 0.5), rgba(60, 31, 77, 0.5) 0px -12px 30px, rgba(35, 215, 206, 0.50) 0px 4px 6px, rgba(232, 44, 44, 0.40) 0px 12px 13px, rgba(200, 16, 16, 0.2) 0px -3px 5px;
+
+}
+.siddharth{
+    width:260px;
+    height:260px;
+    border-radius:50%;
+    transition:1s;
+    
+}
+
+
+.siddharth:hover{
+    transform:scale(1.1);
+}
+
+.i{
+   
+    display:flex;
+    justify-content:space-around;
+    margin-top:50px;
+    
+}
+.desc3{
+    padding-left:80px;
+    padding-top:30px;
+    width:350px;
+    height:380px;
+    border-radius:15px;
+    box-shadow:0px 54px 55px rgba(26, 54, 81, 0.5), rgba(60, 31, 77, 0.5) 0px -12px 30px, rgba(35, 215, 206, 0.50) 0px 4px 6px, rgba(232, 44, 44, 0.40) 0px 12px 13px, rgba(200, 16, 16, 0.2) 0px -3px 5px;
+
+
+}
+
+.desc3 p{
+    padding-left:2px;
+}
+.Dhruv{
+    width:260px;
+    height:260px;
+    border-radius:50%;
+    transition:1s;
+
+
+}
+
+
+.Dhruv:hover{
+    transform: scale(1.1);
+}
+.header{
+    width:100%;
+    height:300px;
+    background-color:orange;
+    text-align:center;
+    font-size:30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h{
+    color:rgb(24, 52, 81);
+    text-decoration:underline;
+}
+
+#header2{
+    color:rgb(24, 52, 81);
+    text-decoration:underline;
+    text-align:center;
+    font-size:40px;
+    margin-top:10px;
+    
+}
+
+.desc1 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+}
+
+.desc2 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+}
+
+.desc3 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+}
