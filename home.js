@@ -1,9 +1,9 @@
 var nextBtn = document.querySelector('.next'),
     prevBtn = document.querySelector('.prev'),
-    carousel = document.querySelector('.carousel'),
+    carousel = document.querySelector('.main'),
     list = document.querySelector('.list'), 
     item = document.querySelectorAll('.item'),
-    runningTime = document.querySelector('.carousel .timeRunning') 
+    runningTime = document.querySelector('.main .timeRunning') 
 
 let timeRunning = 3000 
 let timeAutoNext = 7000
@@ -32,7 +32,7 @@ function resetTimeAnimation() {
 
 
 function showSlider(type) {
-    let sliderItemsDom = list.querySelectorAll('.carousel .list .item')
+    let sliderItemsDom = list.querySelectorAll('.main .list .item')
     if(type === 'next'){
         list.appendChild(sliderItemsDom[0])
         carousel.classList.add('next')
